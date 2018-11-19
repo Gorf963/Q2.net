@@ -12,7 +12,7 @@ namespace Quantum.Q2.net
             using (var qsim = new QuantumSimulator())
             {
                 HelloQ.Run(qsim).Wait();
-                Console.ReadLine();
+                Console.ReadLine(); 
             }
         }
     }
