@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q2.net", "Q2.net\Q2.net.csproj", "{1F9C1455-0EFB-4B08-B3C4-A2E161C6609E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F9C1455-0EFB-4B08-B3C4-A2E161C6609E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9C1455-0EFB-4B08-B3C4-A2E161C6609E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9C1455-0EFB-4B08-B3C4-A2E161C6609E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9C1455-0EFB-4B08-B3C4-A2E161C6609E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBADB2A2-DE1C-41C4-BBAC-A78559009864}
+	EndGlobalSection
+EndGlobal
