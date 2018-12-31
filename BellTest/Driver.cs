@@ -11,11 +11,12 @@ namespace Quantum.BellTest
         {
             using (var qsim = new QuantumSimulator())
             {
-                Result inital = new Result();
-                inital = Result.Zero;
-                var res = BellTest.Run(qsim, 1000, inital).Result;
-                Console.WriteLine("0: {0} 1: {1}",res.Item1,   res.Item2);
-
+                Result[] initals = new Result[] { Result.Zero, Result.One };
+                foreach (Result inital in initals)
+                {
+                    var res = BellTest.Run(qsim, 1000, inital).Result;
+                    Console.WriteLine("for inital of {2} ==> 0: {0} 1: {1} - Agree:{3}", res.Item1, res.Item2, inital, res.Item3);
+                }
                 Console.ReadKey();
             }
         }
